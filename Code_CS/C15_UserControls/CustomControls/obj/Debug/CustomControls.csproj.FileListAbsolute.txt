@@ -1,0 +1,7 @@
+D:\CodeLocal\C15_UserControls\CustomControls\bin\Debug\CustomControls.dll
+D:\CodeLocal\C15_UserControls\CustomControls\bin\Debug\CustomControls.pdb
+D:\CodeLocal\C15_UserControls\CustomControls\obj\Debug\ResolveAssemblyReference.cache
+D:\CodeLocal\C15_UserControls\CustomControls\obj\Debug\CustomControls.dll
+D:\CodeLocal\C15_UserControls\CustomControls\obj\Debug\CustomControls.pdb
+D:\CodeLocal\C15_UserControls\Bin\CustomControls.dll
+D:\CodeLocal\C15_UserControls\Bin\CustomControls.pdb

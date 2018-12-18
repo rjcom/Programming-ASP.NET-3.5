@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements xmlns="http://schemas.microsoft.com/AspNet/AdRotator-Schedule-File-1.2">
+   <Ad>
+      <ImageUrl>ProgAspNet.gif</ImageUrl>
+      <NavigateUrl>http://www.oreilly.com/catalog/progaspdotnet3/index.html</NavigateUrl>
+      <AlternateText>Programming ASP.NET</AlternateText>
+      <Keyword>Web</Keyword>
+      <Impressions>50</Impressions>
+      <Animal>stingray</Animal>
+   </Ad>
+   <Ad>
+      <ImageUrl>LearningASP.gif</ImageUrl>
+      <NavigateUrl>http://www.oreillynet.com/catalog/9780596513979/</NavigateUrl>
+      <AlternateText>Learning ASP.NET 2.0 With AJAX</AlternateText>
+      <Keyword>Windows</Keyword>
+      <Impressions>40</Impressions>
+      <Animal>stingray</Animal>
+   </Ad>
+   <Ad>
+      <ImageUrl>ProgCSharp.gif</ImageUrl>
+      <NavigateUrl>http://www.oreilly.com/catalog/9780596527433/</NavigateUrl>
+      <AlternateText>Programming C# 3.0</AlternateText>
+      <Keyword>Language</Keyword>
+      <Impressions>40</Impressions>
+      <Animal>African Crowned Crane</Animal>
+   </Ad>
+   <Ad>
+      <ImageUrl>ProgVB.gif</ImageUrl>
+      <NavigateUrl>http://www.oreilly.com/catalog/progvb2005/index.html</NavigateUrl>
+      <AlternateText>Programming VB .NET</AlternateText>
+      <Keyword>Language</Keyword>
+      <Impressions>30</Impressions>
+      <Animal>grebe</Animal>
+   </Ad>
+</Advertisements>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="3e7fb062-b6d4-4fa7-a20e-86019ac0ad4c" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:49511/C16_WebServices/StockTickerServiceWcf.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="StockTickerServiceWcf.xsd" MetadataType="Schema" ID="365b633f-6475-4795-9d9b-e5059d7a177b" SourceId="1" SourceUrl="http://localhost:49511/C16_WebServices/StockTickerServiceWcf.svc?xsd=xsd1" />
+    <MetadataFile FileName="StockTickerServiceWcf.disco" MetadataType="Disco" ID="c851092d-2e5b-4356-95bb-b178f80af4fe" SourceId="1" SourceUrl="http://localhost:49511/C16_WebServices/StockTickerServiceWcf.svc?disco" />
+    <MetadataFile FileName="StockTickerServiceWcf1.xsd" MetadataType="Schema" ID="1dace491-d184-483b-a235-5b4d7bb540be" SourceId="1" SourceUrl="http://localhost:49511/C16_WebServices/StockTickerServiceWcf.svc?xsd=xsd0" />
+    <MetadataFile FileName="StockTickerServiceWcf.wsdl" MetadataType="Wsdl" ID="e584a963-15c9-473b-b659-43de0b1cceb3" SourceId="1" SourceUrl="http://localhost:49511/C16_WebServices/StockTickerServiceWcf.svc?wsdl" />
+    <MetadataFile FileName="StockTickerServiceWcf2.xsd" MetadataType="Schema" ID="4d67b8df-3814-4ee3-b1fe-536386b72227" SourceId="1" SourceUrl="http://localhost:49511/C16_WebServices/StockTickerServiceWcf.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,25 @@
+﻿<%@ Master Language="VB" MasterPageFile="~/SiteMasterPage.master" AutoEventWireup="false" CodeFile="ASPNet.master.vb" Inherits="ASPNet" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="TopPageContent" Runat="Server">
+
+   <table>
+      <tr>
+         <td>
+            <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/OnDotNet.gif" />
+         </td>
+      </tr>
+      <tr>
+         <td>
+            <div>
+               <asp:ContentPlaceHolder ID="OnDotNetContent" runat="server">
+                  This is default content for OnDotNet
+               </asp:ContentPlaceHolder>
+            </div>
+         </td>
+      </tr>
+   </table>
+   
+</asp:Content>
+

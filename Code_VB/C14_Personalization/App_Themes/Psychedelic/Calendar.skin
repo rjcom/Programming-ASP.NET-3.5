@@ -1,0 +1,27 @@
+<%--
+Default skin template. The following skins are provided as examples only.
+
+1. Named control skin. The SkinId should be uniquely defined because
+   duplicate SkinId's per control type are not allowed in the same theme.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Default skin. The SkinId is not defined. Only one default 
+   control skin per control type is allowed in the same theme.
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+--%>
+
+<asp:Calendar Runat="server" BorderWidth="3px" BorderStyle="Solid" BorderColor="#FF80FF" BackColor="#C0FFC0" Font-Bold="True" Font-Italic="True">
+    <DayStyle ForeColor="Yellow" BorderColor="#00C000" BackColor="#C00000" BorderStyle="Dotted"></DayStyle>
+    <DayHeaderStyle BorderColor="#80FFFF" BackColor="#FF8000" BorderStyle="Solid"></DayHeaderStyle>
+</asp:Calendar>
+
+
+
+<asp:Calendar SkinID="Red" Runat="server" BorderWidth="3px" BorderStyle="Solid" BorderColor="#FF80FF" BackColor="Red" Font-Bold="True" Font-Italic="True">
+    <DayStyle ForeColor="Yellow" BorderColor="#00C000" BackColor="Red" BorderStyle="Dotted"></DayStyle>
+    <DayHeaderStyle BorderColor="#80FFFF" BackColor="#FF8000" BorderStyle="Solid"></DayHeaderStyle>
+</asp:Calendar>

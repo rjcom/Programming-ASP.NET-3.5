@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<authorlist>
+   <author id="1">
+      <book isbn="0596529562" />
+      <book isbn="059652756X" />
+   </author>
+   <author id="10">
+      <book isbn="059652756X" />
+      <book isbn="0596527438" />
+   </author>
+   <author id="38">
+      <book isbn="0596518439" />
+   </author>
+   <author id="201">
+      <book isbn="0596518439" />
+      <book isbn="0596527438" />
+   </author>
+</authorlist>

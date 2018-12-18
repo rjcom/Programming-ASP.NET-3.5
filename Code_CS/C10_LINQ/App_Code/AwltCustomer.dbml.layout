@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="AwltCustomers">
+  <DataContextMoniker Name="/AwltCustomersDataContext" />
+  <nestedChildShapes>
+    <classShape Id="7ce496d2-eaa1-4f4a-ba81-146d6ff4d546" absoluteBounds="4.75, 1.125, 2, 3.23266845703125">
+      <DataClassMoniker Name="/AwltCustomersDataContext/Customer" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1b29a5c2-0dd9-4356-b973-80e72f2118b2" absoluteBounds="4.7650000000000006, 1.585, 1.9700000000000002, 2.67266845703125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="350b9acc-50ad-4d64-b4db-a8286d8b7fd2" absoluteBounds="2.125, 3.5, 2, 1.5891951497395831">
+      <DataClassMoniker Name="/AwltCustomersDataContext/CustomerAddress" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3b69fdb6-f7da-4a12-8bb1-e6421fa963ac" absoluteBounds="2.14, 3.96, 1.9700000000000002, 1.0291951497395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4.75 : 3.92883422851563); (4.125 : 3.92883422851563)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/AwltCustomersDataContext/Customer/Customer_CustomerAddress" />
+      <nodes>
+        <classShapeMoniker Id="7ce496d2-eaa1-4f4a-ba81-146d6ff4d546" />
+        <classShapeMoniker Id="350b9acc-50ad-4d64-b4db-a8286d8b7fd2" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="f62ec21e-fd9a-4531-9440-22fddf3094a9" absoluteBounds="0.5, 0.5, 2, 2.24658447265625">
+      <DataClassMoniker Name="/AwltCustomersDataContext/Address" />
+      <nestedChildShapes>
+        <elementListCompartment Id="dc676423-ac6f-44bf-a7ca-def11651cafc" absoluteBounds="0.515, 0.96, 1.9700000000000002, 1.68658447265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.3125 : 2.74658447265625); (2.3125 : 3.5)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/AwltCustomersDataContext/Address/Address_CustomerAddress" />
+      <nodes>
+        <classShapeMoniker Id="f62ec21e-fd9a-4531-9440-22fddf3094a9" />
+        <classShapeMoniker Id="350b9acc-50ad-4d64-b4db-a8286d8b7fd2" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

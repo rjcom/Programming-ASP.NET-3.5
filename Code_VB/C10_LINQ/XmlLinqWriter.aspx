@@ -1,0 +1,1 @@
+﻿<%@ Page Language="VB" AutoEventWireup="true" CodeFile="XmlLinqWriter.aspx.vb" Inherits="XmlLinqWriter" %>

@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="VB" Debug="true" Service="LiveSearchWithAjax" CodeBehind="~/App_Code/LiveSearchWithAjax.vb" %>
